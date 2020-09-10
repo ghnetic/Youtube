@@ -1,7 +1,3 @@
-# Proyectos-HTML
+#Youtube
 
-Contiene mis páginas web creadas. Solo es Frontend no tiene nada de Backend.
-
-Facebook:
-
-Youtube:
+Frontend de mi versión de Youtube, utilizando html, css y js.
