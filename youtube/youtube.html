@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Youtube</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <script src="js/all.min.js"></script>
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/youtube.css">
+    <script src="js/youtube.js"></script>
+    
+
+    <title>Youtube</title>
+</head>
+
+<body>
+    <div class="fixed-top">
+        <nav class="navbar navbar-light bg-light ">
+            <div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarToggleExternalContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="https://www.youtube.com/" title="Youtube Home" class="navbar-brand">
+                    <i class="fab fa-youtube" id="botonYoutube"></i><span id="youtube"> YouTube</span><span
+                        id="country-code" class="style-scope ytd-topbar-logo-renderer"><sup>HN</sup></span>
+                </a>
+            </div>
+
+            <form class="form-inline" id="barra">
+                <div class="w-100">
+                    <input class="form-control mb-2 mb-sm-0 w-100" type="search" placeholder="Buscar"
+                        aria-label="Search">
+                </div>
+            </form>
+            <div>
+
+                <button type="button" class="btn" title="Buscar"><i class="fas fa-search"></i></button>
+                <button type="submit" class="btn" title="Crea un video"><i class="fas fa-video"></i></button>
+                <button type="submit" class="btn" title="YouTube Apps"><i class="fas fa-th"></i></button>
+                <button type="submit" class="btn" title="Mensajes"><i class="fas fa-comment"></i></button>
+                <button type="submit" class="btn" title="Configuración"><i class="fas fa-ellipsis-v"></i></button>
+                <button type="button" class="btn btn-outline-primary">
+                    <i class="fas fa-user-circle"></i>
+                    ACCEDER
+                </button>
+
+            </div>
+    </div>
+    </nav>
+
+    <!--CONTENEDOR-->
+
+    <div class="container-fluid" id="coloTodo">
+        
+        <div class="row mt-5" >
+
+            <aside id="overflow" class="list-group col-2 col-md-1.5 ml-3 overflow-auto "
+                style="line-height: 40px; overflow-y: scroll !important; height: calc(100vh - 5rem);">
+                
+                <a href="#" class="list-item list-item-action" id="ColorBarrita" title="Inicio"><i
+                        class="fas fa-home mr-2"></i>Inicio</a>
+                <a href="#" class="list-item list-item-action" id="ColorBarrita" title="Tendencias"><i
+                        class="fas fa-fire mr-2"></i>
+                    Tendencias</a>
+                <a href="#" class="list-item list-item-action" id="ColorBarrita" title="Subscripciones"><i
+                        class="fas fa-inbox mr-2"></i>
+                    Subscripciones</a>
+                <a href="#" class="list-item list-item-action" id="ColorBarrita" title="Biblioteca"><i
+                        class="fas fa-folder mr-2"></i>
+                    Biblioteca</a>
+                <a href="#" class="list-item list-item-action" id="ColorBarrita" title="Historial"><i
+                        class="fas fa-history mr-2"></i>
+                    Historial</a>
+
+                <h6 id="texto">
+                    <br>
+                    Acede para dar "Me Gusta" a los videos, realizar comentarios y suscribirte
+                </h6>
+
+                <button type="button" class="btn btn-outline-primary">
+                    <i class="fas fa-user-circle"></i>
+                    ACCEDER
+                </button>
+
+                <h6 id="texto">
+                    <br>
+                    <br>
+                    LO MEJOR DE YOUTUBE
+                </h6>
+                <a href="#" class="list-item list-item-action" id="ColorBarrita" title="Musica"><i
+                        class="fas fa-music"></i> Música</a>
+                <a href="#" class="list-item list-item-action" id="ColorBarrita" title="Deportes"><i
+                        class="fas fa-futbol"></i> Deportes</a>
+                <a href="#" class="list-item list-item-action" id="ColorBarrita" title="VideoJuegos"><i
+                        class="fas fa-gamepad"></i> Videojuegos</a>
+                <a href="#" class="list-item list-item-action" id="ColorBarrita" title="Noticias"><i
+                        class="fas fa-newspaper"></i> Noticias</a>
+                <a href="#" class="list-item list-item-action" id="ColorBarrita" title="En vivo"><i
+                        class="fas fa-wifi"></i> En vivo</a>
+                <a href="#" class="list-item list-item-action" id="ColorBarrita" title="Video en 360"><i
+                        class="fas fa-film"></i> Video en 360</a>
+                <br>
+
+                <a href="#" class="list-item list-item-action" id="ColorBarrita" title="Explorar canales"><i
+                        class="fas fa-plus-circle"></i> Explorar canales</a>
+
+                <br>
+
+                <h6 id="texto">
+
+                    MÁS DE YOUTUBE
+                </h6>
+
+                <a href="#" class="list-item list-item-action" id="ColorBarrita" title="Youtube Premium"><i
+                        class="fab fa-youtube"></i> YouTube Premium</a>
+                <a href="#" class="list-item list-item-action" id="ColorBarrita" title="En vivo"><i
+                        class="fas fa-wifi"></i> En vivo</a>
+                <a href="#" class="list-item list-item-action" id="ColorBarrita" title="Configuración"><i
+                        class="fas fa-toolbox"></i> Configuración</a>
+                <a href="#" class="list-item list-item-action" id="ColorBarrita" title="Historial de denuncias"><i
+                        class="fab fa-font-awesome-flag"></i> Historial de denuncias</a>
+                <a href="#" class="list-item list-item-action" id="ColorBarrita" tittl><i class="fas fa-question-circle"
+                        title="Ayuda"></i> Ayuda</a>
+                <a href="#" class="list-item list-item-action" id="ColorBarrita" title="Enviar comentarios"><i
+                        class="fas fa-comment-alt"></i>
+                    Enviar comentarios</a>
+
+                <br>
+                <a href="#" class="list-item list-item-action" id="ColorBarrita">Acerca de Prensa</a>
+                <a href="#" class="list-item list-item-action" id="ColorBarrita">Derechos de Autor</a>
+                <a href="#" class="list-item list-item-action" id="ColorBarrita">Comunicate con nosotros</a>
+                <a href="#" class="list-item list-item-action" id="ColorBarrita">Creadores Publicidad</a>
+                <a href="#" class="list-item list-item-action" id="ColorBarrita">Desarrolladores</a>
+
+                <br>
+                <a href="#" class="list-item list-item-action" id="ColorBarrita">Condiciones Privacidad</a>
+                <a href="#" class="list-item list-item-action" id="ColorBarrita">Politica y seguridad</a>
+                <a href="#" class="list-item list-item-action" id="ColorBarrita">Prueba funciones nuevas</a>
+
+                <br>
+
+                <footer>
+                    <p>&copy; 2019 YouTube LLC</p>
+                </footer>
+
+            </aside>
+
+            <main class="col ">
+                <div class="row mt-1"> <button type="button" class="btn btn-secondary btn-sm ml-auto" id="cerrar">X</button></div>
+
+                <div class="row m-3 mt-3">
+                    <i class="fab fa-youtube" id="botonYoutubeMusic" style='width:80px; height:40px'></i><span
+                        id="youtubeMusic">YouTubeMusic</span>
+                </div>
+
+                <div class="row m-3 mb-4" id="subtitulo">
+                    <h1>Our new music streaming <br>
+                        is here</h1>
+                </div>
+
+                <div class="row"></div>
+
+                <div class="row mb-5">
+
+                    <button type="button" class="btn btn-outline-dark ml-4 mb-3">Let's go</button>
+
+                </div>
+
+                
+                <div class="row m-2">
+                    <!--P R I M E R A    F I L A-->
+                    <h4>Tendencias</h4>
+
+                </div>
+
+                <!--S E G U N D A   F I L A-->
+                <div class="row" id="card-container"></div>
+
+                <div class="row m-2">
+                    <h4>Recomendaciones</h4>
+                </div>
+
+                <div class="row" id="recomendado"></div>
+                                
+            </main>
+        </div>
+
+
+
+    </div>
+
+</body>
+
+<asideml>

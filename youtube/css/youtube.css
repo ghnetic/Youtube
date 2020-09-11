@@ -1,0 +1,81 @@
+#youtube{
+    color: #000000;
+    font-size: 1.2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-stretch: condensed;
+
+}
+
+#youtubeMusic{
+    color: #000000;
+    font-size: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-stretch: extra-condensed;
+
+}
+
+#botonYoutubeMusic{
+    color: #e21313;
+    size:2rem;
+}
+
+#botonYoutube{
+    color: #e21313;
+}
+
+#barra{
+    width: 50vw;
+}
+
+.fixed-top{
+    position:fixed;
+    top:3;
+    right:0;
+    left:0;
+    z-index:1030;
+}
+
+#ColorBarrita{
+    color: #000000;
+}
+
+#texto{
+    font-size: 14px;
+}
+
+#codigo{
+    
+    font-size: 10px;
+    font-family: Roboto, Arial, sans-serif;
+}
+
+#country-code{
+    font-size: 8px;
+}
+
+#cuerpoVideo{
+    font-size: 13px;
+    color: #4d4c4c
+}
+
+main{
+    background-image: url("../img/youtube.jpeg");
+    background-size: 90rem;
+    background-repeat: no-repeat;
+}
+
+#cerrar{
+    background:#cacaca;
+    border: #cacaca;
+    color: #000000;
+}
+
+#subtitulo{
+    font-size: 42px;
+    font-family:inherit;
+    font-weight: 200;
+}
+
+#colorTodo{
+    background: #f8f8f8;
+}
